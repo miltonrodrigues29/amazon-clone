@@ -1,6 +1,26 @@
 {
+  "name": "amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miltonrodrigues29/amazon-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miltonrodrigues29/amazon-clone/issues"
+  },
+  "homepage": "https://github.com/miltonrodrigues29/amazon-clone#readme",
   "dependencies": {
-    "nodemon": "^2.0.15",
-    "react-router-dom": "^5.3.0"
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
