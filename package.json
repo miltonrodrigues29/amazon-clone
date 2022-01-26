@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/miltonrodrigues29/amazon-clone#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "redux-thunk": "^2.4.1"
   },
   "devDependencies": {
     "eslint": "^8.7.0",
