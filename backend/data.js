@@ -85,6 +85,18 @@ const data = {
         numReviews:100,
         description:'Dope quality product'
     },
+    {
+        _id:'8',
+        name:'Rarerabbit slim Shirt',
+        category:"Shirts",
+        image:"/images/p6.jpg",
+        price:120,
+        countInStock:0,
+        brand:"Rare Rabbit",
+        rating:5,
+        numReviews:100,
+        description:'Dope quality product'
+    },
 
     ]
 }
