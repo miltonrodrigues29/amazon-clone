@@ -1,4 +1,22 @@
+import bcrypt from 'bcryptjs'
+
 const data = {
+  users:[
+    {
+      name: 'Milton',
+      email: 'admin@example.com',
+      //since it is not safe to keep passwords in plain texts in server, we encrypt it using bcrypr and add salt of 8
+      password: bcrypt.hashSync('123456',8),
+      isAdmin: true,
+    },
+    {
+      name: 'John',
+      email: 'user@example.com',
+      //since it is not safe to keep passwords in plain texts in server, we encrypt it using bcrypr and add salt of 8
+      password: bcrypt.hashSync('123456',8),
+      isAdmin: false,
+    }
+  ],
   products: [
     {
       _id: '1',
